@@ -8,44 +8,57 @@
 </head>
 
 <body>
-    <header>
-        <h1>Savannah's Portfolio</h1>
-
-        <nav>
-            <a>About Me</a>
-            <a>Websites</a>
-            <a>Art</a>
-            <a>Contact</a>
-            <a>Resume</a>
-        </nav>
+    <div class="topnav">
+        <a href= "#Contact">Contact</a>
+        <a href= "#Art">Art</a>
+        <a href= "#Websites">Websites</a>
+        <a href= "#About">About Me</a>
+        <a href="#home">Home</a>
+    </div>
+    <h1>Savannah's Portfolio</h1>
     </header>
     
     <main>
         <section>
-           <header>About Me</header> 
+            <header>
+                <h2>About Me</h2>
+            </header>
            <p>
             I was born and raised in Harrisburg, Pennsylvania. I've always been an artist, from photography, to drawing, to digital art, and more. I started designing logos, flyers, and character portraits, and eventually started exploring web-design. My goal is to incorporate all of my art into business by being able to design websites, using my own work for photography, logos, and digital art.
            </p>
-           <img src="./assets/images/profile.JPG"alt="profile picture"/>
+           <img class="profile" src="./assets/images/profile.JPG"alt="profile picture"/>
         </section>
+
         <section>
-            <header>Websites</header> 
+            <header>
+                <h2>Websites</h2>
+            </header>
             <a href="https://savannahjk02.github.io/accessible-marketing-site/">Accessible Marketing Site</a>
-         </section>
-         <section>
-            <header>Art</header> 
-            <img src="./assets/images/Alpaca.png"alt="Alpaca Digital Drawing"/>
-            <img src="./assets/images/Casper.png"alt="Casper Digital Drawing"/>
-            <img src="./assets/images/One-Piece.png"alt="Luffy Digital Drawing"/>
-            <img src="./assets/images/Planet.png"alt="Planet Digital Drawing"/>
-            <img src="./assets/images/photography-bridge.jpg"alt="Bridge Photography"/>
-            <img src="./assets/images/photography-Dug.jpg"alt="Dog Photography"/>
-         </section>
-         <section>
-            <header>Contact</header> 
-         </section>
-         <section>
-            <header>Resume</header> 
-         </section>
+        </section>
+
+        <section>
+            <header>
+                <h2>Art</h2>
+            </header>
+            <section class="digital-art">
+                <img id="digital-art" src="./assets/images/Alpaca.png"alt="Alpaca Digital Drawing"/>
+                <img id="digital-art" src="./assets/images/Casper.png"alt="Casper Digital Drawing"/>
+                <img id="digital-art" src="./assets/images/One-Piece.png"alt="Luffy Digital Drawing"/>
+                <img id="digital-art" src="./assets/images/Planet.png"alt="Planet Digital Drawing"/>
+            </section>
+            <section class="photography">
+                <img id="photography" src="./assets/images/photography-bridge.jpg"alt="Bridge Photography"/>
+                <img id="photography" src="./assets/images/photography-Dug.jpg"alt="Dog Photography"/>
+            </section>
+        </section>
+
+        <section>
+            <header>
+                <h2>Contact</h2>
+            </header>
+            <p>Location: Harrisburg, PA</p>
+            <p>Phone: 123-456-7890</p>
+            <p>email: savannahjk02@gmail.com</p>
+        </section>
     </main>
 </body>

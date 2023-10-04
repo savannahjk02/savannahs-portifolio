@@ -1,0 +1,61 @@
+body {
+    background-color: #FEADD8;
+}
+
+.topnav {
+    display: flex;
+    justify-content: center;
+}
+.topnav a{
+    color: white;
+    padding: 40px;
+    font-size: 30px;
+    text-decoration: wavy;
+    text-shadow: 2px 2px #60DFF9;
+}
+
+.topnav a:hover {
+    color: #ff0099;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px #60DFF9;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #3DF2BB;
+    border-radius: 5px;
+    background-color: #3DF2BB;
+}
+
+.profile {
+    max-width: 200px;
+}
+
+#digital-art {
+    width: 20%;
+}
+
+.digital-art {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px
+}
+
+#photography {
+    width: 45%
+}
+
+.photography {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px
+}
