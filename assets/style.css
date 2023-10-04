@@ -1,3 +1,9 @@
+* {
+    font-family: "Lucida Console", Lucida, monospace;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
 body {
     background-color: #FEADD8;
 }
@@ -29,9 +35,13 @@ h1 {
 h2 {
     display: flex;
     justify-content: center;
-    border: 2px solid #3DF2BB;
-    border-radius: 5px;
     background-color: #3DF2BB;
+    width: 200px;
+    margin:auto;
+    box-shadow: 5px 5px #35D1A2;
+    border-radius: 8px;
+    color: #ff0099;
+    text-shadow: 2px 2px white;
 }
 
 .profile {
