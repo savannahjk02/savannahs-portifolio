@@ -9,46 +9,54 @@
 
 <body>
     <div class="topnav">
-        <a href= "#Contact">Contact</a>
-        <a href= "#Art">Art</a>
-        <a href= "#Websites">Websites</a>
-        <a href= "#About">About Me</a>
         <a href="#home">Home</a>
+        <a href= "#About">About Me</a>
+        <a href= "#Websites">Websites</a>
+        <a href= "#Art">Art</a>
+        <a href= "#Contact">Contact</a>
     </div>
-    <h1>Savannah's Portfolio</h1>
+    <h1 id="Home">Savannah's Portfolio</h1>
     </header>
     
     <main>
-        <section>
+        <section id="center">
             <header>
                 <h2>About Me</h2>
             </header>
-           <p>
-            I was born and raised in Harrisburg, Pennsylvania. I've always been an artist, from photography, to drawing, to digital art, and more. I started designing logos, flyers, and character portraits, and eventually started exploring web-design. My goal is to incorporate all of my art into business by being able to design websites, using my own work for photography, logos, and digital art.
-           </p>
-           <img class="profile" src="./assets/images/profile.JPG"alt="profile picture"/>
+            <section id="About">
+                <img id="profile" src="./assets/images/profile.JPG"alt="profile picture"/>
+                <div id="padding"></div>
+                <p id="bio">
+                I was born and raised in Harrisburg, Pennsylvania. I've always been an artist, from photography, to drawing, to digital art, and more. I started designing logos, flyers, and character portraits, and eventually started exploring web-design. My goal is to incorporate all of my art into business by being able to design websites, using my own work for photography, logos, and digital art.
+                </p>
+            </section>
         </section>
 
         <section>
             <header>
-                <h2>Websites</h2>
+                <h2 id="Websites">Websites</h2>
             </header>
-            <a href="https://savannahjk02.github.io/accessible-marketing-site/">Accessible Marketing Site</a>
-            <img src="./assets/images/README-SS-1 copy.png" alt="Accessible Marketing Site Screenshot 1"/>
-            <img src="./assets/images/README-SS-2 copy.png" alt="Accessible Marketing Site Screenshot 2"/>
-            <img src="./assets/images/README-SS-3 copy.png" alt="Accessible Marketing Site Screenshot 3"/>
+            <h3 class="websites">Accessible Marketing Website Image</h3>
+            <h4>click on image to redirect to website</h4>
+            <section class="website-assets">
+                <a href="https://savannahjk02.github.io/accessible-marketing-site/">
+                    <img id="website-assets" src="./assets/images/README-SS-1 copy.png" alt="Accessible Marketing Site Screenshot 1"/>
+                </a>
+            </section>
         </section>
 
         <section>
             <header>
-                <h2>Art</h2>
+                <h2 id="Art">Art</h2>
             </header>
+            <h3>Digital Art</h3>
             <section class="digital-art">
                 <img id="digital-art" src="./assets/images/Alpaca.png"alt="Alpaca Digital Drawing"/>
                 <img id="digital-art" src="./assets/images/Casper.png"alt="Casper Digital Drawing"/>
                 <img id="digital-art" src="./assets/images/One-Piece.png"alt="Luffy Digital Drawing"/>
                 <img id="digital-art" src="./assets/images/Planet.png"alt="Planet Digital Drawing"/>
             </section>
+            <h3>Photography</h3>
             <section class="photography">
                 <img id="photography" src="./assets/images/photography-bridge.jpg"alt="Bridge Photography"/>
                 <img id="photography" src="./assets/images/photography-Dug.jpg"alt="Dog Photography"/>
@@ -57,7 +65,7 @@
 
         <section>
             <header>
-                <h2>Contact</h2>
+                <h2 id="Contact">Contact</h2>
             </header>
             <p>Location: Harrisburg, PA</p>
             <p>Phone: 123-456-7890</p>
