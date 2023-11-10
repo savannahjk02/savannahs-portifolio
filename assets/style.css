@@ -90,16 +90,19 @@ h4 {
 }
 
 .website-assets {
+    padding-left: 130px;
     display: flex;
     justify-content: center;
+    justify-content: space-around;
 }
 
-.website-assets:hover {
+#website-assets:hover {
     opacity: 30%;
 }
 
 #website-assets {
-    max-width: 1100px;
+    max-width: 80%;
+    
 }
 
 .digital-art {
@@ -110,18 +113,19 @@ h4 {
 }
 
 #photography {
-    width: 45%
+    width: 30%
+    
 }
 
 .photography {
+    padding: 20px;
     display: flex;
     justify-content: center;
-    justify-content: space-between;
-    padding: 20px
+    justify-content: space-around;
 }
 
 @media screen and (max-width: 992px) {
     #website-assets {
-        max-width: 100%;
+        max-width: 50%
     }
 }
